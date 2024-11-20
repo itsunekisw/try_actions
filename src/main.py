@@ -6,7 +6,7 @@ def add(a: int, b: int) -> int:
 
 
 def main():
-    if len(sys.argv) <= 2:
+    if len(sys.argv) <=   2: # wrong style
         print("a and b is required")
     _, a, b, *_ = sys.argv
     print(add(*map(int, (a, b))))

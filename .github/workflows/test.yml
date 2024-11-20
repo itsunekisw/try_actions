@@ -15,7 +15,7 @@ jobs:
           python-version: 3.7
 
       - name: Run pytest install
-        run: pip install pytest
+        run: python -m pip install pytest
 
       - name: Run tests
-        run: pytest
+        run: python -m pytest
